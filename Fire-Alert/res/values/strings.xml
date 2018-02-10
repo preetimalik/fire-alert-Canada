@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fire-Alert Mobile</string>
+    <string name="action_settings">Settings</string>
+    <string name="company_checklist">Company Checklist</string>
+    <string name="quick_inspect">Quick Inspect</string>
+    <string name="options">Options</string>
+    <string name="startbutton">STARTButton</string>
+    <string name="companychecklistbutton">CompanyChecklistButton</string>
+    <string name="quickinspectbutton">QuickInspectButton</string>
+    <string name="optionsbutton">OptionsButton</string>
+    <string name="uploadsbutton">UploadsButton</string>
+    <string name="title_activity_company_forms">CompanyFormsActivity</string>
+    <string name="clientcompany">Client Company</string>
+    <string name="clientlocation">Client Location</string>
+    <string name="next">Next</string>
+    <string name="title_activity_login_screen">Fire-Alert Mobile</string>
+    <string name="_n_nthis_product_is_a_prototype_demo_for_the_fire_alert_franchise_constructed_by_pixel_byte_solutions_">\n\nThis product is a prototype demo for the Fire-Alert franchise, constructed by Pixel-Byte Solutions ®</string>
+    <string name="title_activity_scan_equipment">ScanEquipmentActivity</string>
+    <string name="Continue">Continue</string>
+    <string name="pass">PASS</string>
+    <string name="fail">FAIL</string>
+    <string name="scan">Scan</string>
+    <string name="sign_in">Sign In</string>
+    <string name="title_activity_save_results">SaveResultsActivity</string>
+    <string name="title_activity_scanner">Scan Equipment</string>
+    <string name="title_activity_check_equipment">CheckEquipmentActivity</string>
+    <string name="title_activity_enter_manually">Manual Input</string>
+
+</resources>

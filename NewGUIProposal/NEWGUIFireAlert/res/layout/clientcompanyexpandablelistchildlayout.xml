@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/clientCompanyExpandableListChild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_margin="10dp"
+            android:paddingLeft="20dp" />
+    
+</LinearLayout>
+ <!-- if adding anything within, make a second layout to hold the textview, change the width to 0dp (add the weight)
+ and add the rest thereafter -->

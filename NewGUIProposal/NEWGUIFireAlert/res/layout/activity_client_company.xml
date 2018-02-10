@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ClientCompanyActivity" >
+    
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+       <ImageButton
+           android:id="@+id/clientCompanyBackNavButton"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:background="#FF2F05"
+           android:contentDescription="@string/backnav"
+           android:src="@android:drawable/ic_menu_revert" />
+       
+    	<TextView
+        	android:layout_width="0dp"
+        	android:layout_height="40dp"
+        	android:layout_weight="0.8"
+        	android:background="#FF2F05"
+        	android:gravity="left|center_vertical"
+        	android:textColor="@android:color/primary_text_dark"
+        	android:textSize="25sp"
+        	android:text="@string/companiesList" />
+    	
+    	<ImageButton
+    	    android:id="@+id/clientCompanySearchButton"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="match_parent"
+    	    android:background="#FF2F05"
+    	    android:contentDescription="@string/manEnt"
+    	    android:src="@android:drawable/ic_menu_search" />
+            
+    </LinearLayout>
+    
+    <ExpandableListView
+        android:id="@+id/clientCompnayExpandableList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#FF2F05"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>
